@@ -1,0 +1,4 @@
+[Added Associations]
+application/pdf=org.pwmt.zathura-pdf-mupdf.desktop;
+text/plain=libreoffice-writer.desktop;
+image/jpeg=gimp.desktop;
