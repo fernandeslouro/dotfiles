@@ -1,0 +1,12 @@
+*
+!.gitinore
+!.bashrc
+!.config/
+!.dmenu/
+!.dwm/
+!.newsboat/
+!.slstatus/
+!.st/
+!.vim/
+!.vimrc
+!.xinitrc
