@@ -1,4 +1,6 @@
 [Added Associations]
 application/pdf=org.pwmt.zathura-pdf-mupdf.desktop;
-text/plain=libreoffice-writer.desktop;
+text/plain=sxiv.desktop;libreoffice-writer.desktop;
 image/jpeg=gimp.desktop;
+video/x-matroska=mpv.desktop;
+video/mp4=mpv.desktop;
