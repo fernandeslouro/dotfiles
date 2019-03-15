@@ -1,6 +1,11 @@
-http://lukesmith.xyz/rss.xml
-https://notrelated.libsyn.com/rss
-https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA "~Luke Smith (YouTube)"
+http://lukesmith.xyz/rss.xml "blogs"
+https://notrelated.libsyn.com/rss "podcasts"
 https://www.archlinux.org/feeds/news/ "tech"
-https://jack-clark.net/feed/ "~Import AI"
+https://jack-clark.net/feed/ "blogs" "~Import AI"
 
+https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA "youtube" "~Luke Smith (YouTube)"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCiRiQGCHGjDLT9FQXFW0I3A "youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCZFipeZtQM5CKUjx6grh54g "youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCAuUUnT6oDeKwE6v1NGQxug "youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCY0YIply-je0EhSWLgpftVw "youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCsXVk37bltHxD1rDPwtNM8Q "youtube"
