@@ -4,3 +4,4 @@ text/plain=sxiv.desktop;libreoffice-writer.desktop;
 image/jpeg=gimp.desktop;
 video/x-matroska=mpv.desktop;
 video/mp4=mpv.desktop;
+application/epub+zip=org.pwmt.zathura-pdf-mupdf.desktop;

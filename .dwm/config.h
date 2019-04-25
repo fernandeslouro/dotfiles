@@ -59,9 +59,12 @@ static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont,
 static const char *termcmd[]  = { "st", NULL };
 
 /* volume controls */
-static const char *upvol[]   = { "amixer", "set", "Master", "3+",     NULL };
-static const char *downvol[] = { "amixer", "set", "Master", "3-",     NULL };
-static const char *mutevol[] = { "amixer", "set", "Master", "toggle", NULL };
+
+static const char *upvol[]   = { "/usr/bin/pactl", "set-sink-volume", "0", "+5%",     NULL };
+static const char *downvol[] = { "/usr/bin/pactl", "set-sink-volume", "0", "-5%",     NULL };
+static const char *mutevol[] = { "/usr/bin/pactl", "set-sink-mute",   "0", "toggle",  NULL };
+static const char *brightup[]       = { "xbacklight", "-inc", "5", NULL};
+static const char *brightdown[]     = { "xbacklight", "-dec", "5", NULL};
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
@@ -102,6 +105,8 @@ static Key keys[] = {
 	{ MODKEY,                       XK_F10,   spawn,          {.v = upvol   } },
 	{ MODKEY,                       XK_F9,    spawn,          {.v = downvol } },
 	{ MODKEY,                       XK_F11,   spawn,          {.v = mutevol } },
+	{ MODKEY,                       XK_F2,   spawn,          {.v = brightdown } },
+	{ MODKEY,                       XK_F3,   spawn,          {.v = brightup } },
 };
 
 /* button definitions */
