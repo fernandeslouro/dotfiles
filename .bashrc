@@ -13,4 +13,7 @@ if [ -e ~/.bashrc.aliases ] ; then
 fi
 # >>> Added by cnchi installer
 BROWSER=/usr/bin/chromium
-EDITOR=/usr/bin/nano
+EDITOR=/usr/bin/vim
+
+export PATH="/home/primity/.scripts:$PATH"
+

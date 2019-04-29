@@ -9,6 +9,7 @@
 !.slstatus/*
 !.st/*
 !.vim/*
+!.scripts/*
 !.config/
 !.dmenu/
 !.dwm/
@@ -16,5 +17,6 @@
 !.slstatus/
 !.st/
 !.vim/
+!.scripts/
 !.vimrc
 !.xinitrc
